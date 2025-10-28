@@ -9,8 +9,8 @@
     <style>
         body {
             font-family: 'Poppins', 'Comic Sans MS', cursive;
-            background-color: rgb(240, 248, 255);
-            color: rgb(30,30,30);
+            background-color: rgb(15, 30, 60);
+            color: rgb(255, 255, 255);
             text-align: center;
             margin: 0;
             padding: 0;
@@ -22,6 +22,11 @@
         border-radius: 10px;
         margin: 10px;
         }
+        nav {
+        background-color: rgb(40, 130, 200)
+        padding: 10px;
+        margin-bottom: 20px;
+        }
         nav a:visited {
             color: rgb(230, 230, 230);
         }
@@ -29,28 +34,38 @@
             color: rgb(255, 255, 100);
             text-decoration: underline;
         }
-        a:link {
-            color: black;
+        nav a:link {
+            color: rgb(255, 255, 255);
             text-decoration: none;
-            font-weight: 600;
+            font-weight: bold;
         }
 
-        a:visited {
-            color: rgb(25, 94, 172);
+        nav a:visited {
+            color: rgb(230, 230, 230);
         }
 
-        a:hover{  
-            color: rgb(65, 135, 215);
+        nav a:hover{  
+            color: rgb(255, 255, 100);
             text-decoration: underline;
         }
 
-        p {
-            font-size: 20px;
-        }
+       .content {
+        padding: 20px;
+        background-color: rgb(30, 50, 90);
+        border-radius: 15px;
+        margin: 20px auto;
+        max-width: 900px;
+       }
+       img {
+        float: left;
+        margin: 10px 20px 10px 0;
+        border-radius: 10px;
+        width: 280px;
+        height: auto;
+       }
 
         table {
-            font-size: 20px;
-            padding: 10px;
+            width: 80%;
             border: 1px solid rgb(25, 94 172);
             border-collapse: collapse;
             margin: 20px auto;
@@ -66,7 +81,7 @@
           padding: 8px;
           border: 1px solid rgb(200, 220, 255);
         }
-        el {
+        ul {
             list-style-type: none;
             padding: 0;
         }
@@ -77,8 +92,11 @@
     </style>
 </head>
 <body>
-  <sub>A Short Guide on our Favorite Sanrio Characters</sub>
+    <header
+  <p>A Short Guide on our Favorite Sanrio Characters</p>
   <h1>૮꒰◞ ˕ ◟ ྀི꒱ა Sanrioverse</h1>
+  </p>header>
+
   <nav>
     <a href="https://mandy67mango.github.io/2QPortfolioCsBascon/public/2Q1GCesiumBascon.html">Pochacco (You're here!!)</a>
      | 
@@ -88,10 +106,9 @@
      | 
     <a href="https://acpcalaquian.github.io/2QPortfolioCsCalaquian/public/2QFirstGradedExercise.html">Pompompurin</a>
   </nav>
-  <br>
-  <wbr>
+
+  <div class="content">
   <h2>⸸ Pochacco ⸸</h2>
-  <br>
 <p>Pochacco (ポチャッコ, Pochakko) is a character of Sanrio, designed by Minoru Onoue. He lives on Uguisu Alley on the outskirts of Fuwafuwa Town and was born on February 29th, on a leap year. Pochacco is a white dog with black floppy ears, black nose, eyes, and paw pads, as well as a short tail with a black tip. He often wears red or blue t-shirts or hoodies.</p>
 <p>Originally known as "The Yorimichi Dog," Pochacco is a curious and clumsy boy who sometimes sticks his nose in where it isn’t wanted. He is a vegetarian and his favorite food is banana ice cream. He enjoys walking, though he has trouble walking straight and often totters from side to side. Pochacco is also athletic and proficient in sports, especially soccer.</p>
 
@@ -100,33 +117,17 @@
     style="width:540px; height:360px;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/TeK8XjW31dQ?si=yoERZ1sB339KZ6Gn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <h2>╰┈➤ ⌖  POCHACCO CHARACTER INFO  ༄.°</h2>
-<table align="center">
-<tr>
-<td>Name</td>
-<td>Pochacco</td>
-</tr>
-<tr>
-<td>Birthday</td>
-<td>February 29 (leap year)</td>
-</tr>
-<tr>
-<td>Hometown</td>
-<td>Fuwafuwa Town</td>
-</tr>
-<tr>
-<td>Species</td>
-<td>Dog: Beagle</td>
-</tr>
-<tr>
-<td>Height n Weight</td>
-<td>4 Cups of Banana Ice Cream + 3 Obake Carrots</td>
-</tr>
-<tr>
-<td>Likes</td>
+<table>
+<tr><th>Name</th><td>Pochacco</td></tr>
+<tr><th>Birthday</th><td>February 29 (leap year)</td></tr>
+<tr><th>Hometown</th><td>Fuwafuwa Town</td></tr>
+<tr><th>Species</th><td>Dog: Beagle</td></tr>
+<tr><h>Height n Weight</th><td>4 Cups of Banana Ice Cream + 3 Obake Carrots</td></tr>
+<tr><th>Likes</th>
 <td>Banana ice cream, Spring and Summer, Renge-so Flower</td>
 </tr>
 <tr>
-<td>Dislikes</td>
+<th>Dislikes</th>
 <td>Tofu</td>
 </tr>
 </table>
@@ -134,19 +135,14 @@
 <h3>Sources</h3>
 <ul>
 <li>https://hellokitty.fandom.com/wiki/Pochacco</li>
-</ul>
-<ul>
 <li>https://static.wikia.nocookie.net/hellokitty/images/f/f6/Sanrio_logo.png</li>
-</ul>
-<ul>
 <li>https://th.bing.com/th/id/OIP.0HnsetoTi-pQxfxCqcoB5gHaEK?w=300&amp</li>
-</ul>
-<ul>
 <li>https://youtu.be/TeK8XjW31dQ?si=6PGHH9-1M6EZEDT6</li>
 </ul>
-<hr>
-<p align="center"> © 2025-2026 Sanrioverse | Page by Mandalay Bascon | CTTRO
-</p>
+</div>
+<footer>
+ © 2025-2026 Sanrioverse | Page by Mandalay Bascon | CTTRO
+</footer>
 </body>
 
 </html>
