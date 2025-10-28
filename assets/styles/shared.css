@@ -17,8 +17,8 @@
    ================================================ */
 
 body {
-    /* background-color: Add your preferred section non-white color here */
-    color: rgb(255, 255, 255); /* white text */
+    background-color: rgb(216, 242, 255);/* background-color: Add your preferred section non-white color here */
+    color: rgb(27, 58, 75); /* white text */
     font-family: 'Comic Sans MS', cursive;
     margin: 0;
     padding: 0;
@@ -26,13 +26,13 @@ body {
 }
 
 header, footer {
-    background-color: rgb(255, 255, 255); /* white */
+    background-color: rgb(179, 224, 255); /* white */
     padding: 20px;
-    /* color: same color as body background-color */
+    color: rgb(27, 58, 75)/* color: same color as body background-color */
 }
 
 nav {
-    /* background-color: Add your preferred navigation non-white color here */
+    background-color: rgb(49, 117, 182)/* background-color: Add your preferred navigation non-white color here */
     padding: 10px;
     margin-bottom: 0;
 }
@@ -45,32 +45,32 @@ nav a {
 }
 
 nav a:visited {
-    color: rgb(255, 255, 255); /* white text */
+    color: rgb(212, 235, 255); /* white text */
     text-decoration: underline;
 }
 
 nav a:hover {
-    color: rgb(255, 255, 255); /* white text */
+    color: rgb(255, 234, 128); /* white text */
     text-decoration: underline;
 }
 
 a:visited {
-    /* color: same color as body background-color */
+    color: rgb(53, 109, 155)/* color: same color as body background-color */
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-    /* color: same color as body background-color */
+    color: rgb(63, 167, 245)/* color: same color as body background-color */
 }
 
 .blue-section {
-    /* background-color: Add your preferred section non-white color here */
+    background-color: rgb(167, 219, 255)/* background-color: Add your preferred section non-white color here */
     padding: 30px;
     margin: 20px auto;
     border-radius: 12px;
     max-width: 1000px;
-    color: rgb(255, 255, 255); /* white text */
+    color: rgb(27, 58, 75); /* white text */
 }
 
 .media-container {
@@ -96,16 +96,16 @@ a:hover {
 }
 
 table, th, td {
-    border: 1px solid rgb(255, 255, 255); /* This has a white border, so if your bg is white, please change accordingly. */
+    border: 1px solid rgb(49, 117, 182); /* This has a white border, so if your bg is white, please change accordingly. */
     border-radius: 10px;
     padding: 8px;
     /* background-color: Add your preferred section non-white color here */
-    color: rgb(255, 255, 255); /* white text */
+    color: rgb(232, 247, 255); /* white text */
     margin: auto;
 }
 
 hr {
-    border: 1px dotted rgb(255, 255, 255); /* white text */
+    border: 1px dotted rgb(49, 117, 182); /* white text */
     margin-top: 5px;
     margin-bottom: 20px;
     width: 80%;
