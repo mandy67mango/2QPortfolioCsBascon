@@ -11,7 +11,6 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: rgb(255, 255, 255);
     text-align: center;
-    display: flex;
   }
   video {
   position: fixed;
@@ -20,14 +19,15 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  z-index: -1;
   }
   h1 {
     font-size: 48px;
     font-weight: bold;
     margin-top: 50px;
   }
-  p, nav, footer {
-    position: relative;
+ nav {
+    margin-bottom: 50px;
   }
   a {
     color: rgb(255, 255, 255);
@@ -35,15 +35,16 @@
   }
   a:hover {
     color: rgb(255, 182, 193);
-  }
-  nav {
-    flex: 1;
+
   }
   footer {
     background-color: rgb(255, 105, 180, 0.9);
     padding: 10px;
     font-size: 14px;
     text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
   }
   footer a {
     color: rgb(255, 255, 255);
@@ -79,6 +80,7 @@
    <p><a href="https://ph.pinterest.com/pin/291185932180558321/">Favicon from Pinterest</a></p>
    <p><a href="https://ph.pinterest.com/pin/38210296835038365/">Background from Pinterest</a></p>
    <p><a href="https://www.w3schools.com/howto/howto_css_fixed_footer.asp">W3Schools - How TO - Fixed Footer</a></p>
+   <p><a href="https://www.w3schools.com/css/css_positioning.asp">W3Schools - CSS The position Property</a></p>
   </footer>
 </body>
 </html>
